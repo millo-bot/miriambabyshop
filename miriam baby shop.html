@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Miriam Baby Shops</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Account</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="row">
+                <div class="col-2">
+                    <h1>VALUE YOUR BABY</h1>
+                    <p>Discover fashionable and comfortable items for your babies</p>
+                    <a href="#" class="btn">Explore now</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/baby1.jpg" alt="Baby Image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Categories -->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/shoes1.jpg" alt="Shoes 1">
+                </div>
+                <div class="col-3">
+                    <img src="images/shoes2.jpg" alt="Shoes 2">
+                </div>
+                <div class="col-3">
+                    <img src="images/clo1.jpg" alt="Clothing 1">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Products -->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img class='imgeffect' src="images/clo2.jpg" alt="Total Spring Outfit">
+                <h4>Total Spring Outfit</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>ksh1200.00</p>
+                <button onclick="addToCart('Total Spring Outfit', 1200)">Add to Cart</button>
+            </div>
+            <div class="col-4">
+                <img class='imgeffect' src="images/clo3.jpg" alt="rompers">
+                <h4>rompers</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>ksh500.00</p>
+                <button onclick="addToCart('Rompers', 500)">Add to Cart</button>
+            </div>
+            <div class="col-4">
+                <img class='imgeffect' src="images/clo4.jpg" alt="Joggings">
+                <h4>Joggings</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>ksh1000.00</p>
+                <button onclick="addToCart('Joggings', 1000)">Add to Cart</button>
+            </div>
+            <div class="col-4">
+                <img class='imgeffect' src="images/clo5.jpg" alt="Beach Wear">
+                <h4>Beach Wear</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>ksh1200.00</p>
+                <button onclick="addToCart('Beach Wear', 1200)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Latest Products -->
+    <div class="small-container">
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img class='imgeffect' src="images/clo7.jpg" alt="Receiving Set">
+                <h4>Receiving Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>ksh1200.00</p>
+                <button onclick="addToCart('Receiving Set', 1200)">Add to Cart</button>
+            </div>
+            <div class="col-4">
+                <img class='imgeffect' src="images/bra1.jpg" alt="Baby Jewelry">
+                <h4>Baby Jewelry</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>ksh500.00</p>
+                <button onclick="addToCart('Baby Jewelry', 500)">Add to Cart</button>
+            </div>
+            <div class="col-4">
+                <img class='imgeffect' src="images/shoe3.jpg" alt="Boys Shoes">
+                <h4>Boys Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>ksh1000.00</p>
+                <button onclick="addToCart('Boys Shoes', 1000)">Add to Cart</button>
+            </div>
+            <div class="col-4">
+                <img class='imgeffect' src="images/shoe4.jpg" alt="Girls Shoes">
+                <h4>Girls Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>ksh1200.00</p>
+                <button onclick="addToCart('Girls Shoes', 1200)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Cart Section -->
+    <h2>Cart</h2>
+    <div class="Cart">
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <div class="total">Total: ksh <span id="cart-total">0</span></div>
+    </div>
+
+    <!-- Form Section -->
+    <h2>Register</h2>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="phone">Phone number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="07-***-***"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <section id="checkout" class="container"></section>
+    <h2>MPESA</h2>
+    <button onclick="checkout()">Checkout</button>
+</section>
+
+
+    <!-- Testimonial Section -->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Products at Miriam Baby Shop are original and of high quality at affordable prices.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="images/user1.jpg" alt="User Image">
+                    <h3>Mary</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Fast delivery and amazing customer service! I'm always satisfied with their products.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/user2.jpg" alt="User Image">
+                    <h3>John</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Best baby products in town! I always recommend Miriam Baby Shop to my friends.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/user3.jpg" alt="User Image">
+                    <h3>Angela</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript for Cart Functionality -->
+    <script>
+        let cartTotal = 0;
+
+        function addToCart(productName, price) {
+            // Update cart total
+            cartTotal += price;
+
+            // Display the updated total
+            document.getElementById("cart-total").textContent = cartTotal;
+
+            // Add the product to the cart items list
+            const cartItems = document.getElementById("cart-items");
+            const newItem = document.createElement("div");
+            newItem.textContent = `${productName} - ksh${price}`;
+            cartItems.appendChild(newItem);
+        }
+    </script>
+</body>
+</html>
